@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>macbook-pro</title>
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container mt-5">
+        <section class="row">
+            <!-- macbook img -->
+            <div class="col-6 p-5">
+                <img src="image/mac.png" class="img-fluid" alt="">
+            </div>
+            <!-- macbook requerment -->
+            <div class="col-6 p-5 pb-2">
+                <h1 class="text-info">Customize your Blue 24-Inch iMac with apple M1 chip</h1>
+                <p>imac M1 cheap with 8core CPU with 4performance core and 4efficiency core 7-core GPU 16-core
+                    neural
+                    engine and 8GB undefine memory 256GB ssd storage two thendarbolt/usb 4port magic mouse magic
+                    keyboard us-english</p>
+                <div class="mt-5">
+                    <h4 class="mb-3">Memory</h4>
+                    <button class="btn btn-outline-dark" id="memory8GB">8GB unifield Memory</button>
+                    <button class="btn btn-outline-dark" id="memory16GB">16GB unifield Memory</button>
+                </div>
+                <div class="mt-5">
+                    <h4 class="mb-3">Storage</h4>
+                    <button class="btn btn-outline-dark" id="storage256">256GB SSD Storage</button>
+                    <button class="btn btn-outline-dark" id="storage512">512GB SSD Storage</button>
+                    <button class="btn btn-outline-dark" id="storage1TB">1TB SSD Storage</button>
+                </div>
+                <div class="mt-5">
+                    <h4 class="mb-3">Check your delivery option</h4>
+                    <button class="mb-2 btn btn-outline-dark" id="freeDelivery">Friday August-25 free prime
+                        delivery</button>
+                    <button class="mb-5 btn btn-outline-dark" id="DeliveryCost">Friday August-21 delivery-charge
+                        $20</button>
+                </div>
+                <!-- price of defferent parts -->
+                <div class="col-10">
+                    <div class="d-flex justify-content-between">
+                        <h4>Best Price</h4>
+                        <h4>$<span id="bestPrice">1299</span></h4>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h4>Extra Memory Cost</h4>
+                        <h4>$<span id="ExtraMemoryCost">0</span></h4>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h4>Extra Storage Cost</h4>
+                        <h4>$<span id="ExtraStorageCost">0</span></h4>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <h4>Delivery Charge</h4>
+                        <h4>$<span id="DeliveryCharge">0</span></h4>
+                    </div>
+                    <hr class="border border-1 border-dark">
+                    <div class="d-flex justify-content-between">
+                        <h4>Total Price</h4>
+                        <h4>$<span id="TotalPrice">1299</span></h4>
+                    </div>
+                    <hr>
+                    <div>
+                        <h5>Add promo code</h5>
+                        <div class="d-flex">
+                            <input type="text" name="" id="promoCode" class="form-control">
+                            <button class="btn btn-danger" id="apply">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <h1>Total :</h1>
+                <h1>$<span id="totalAmount">1299</span></h1>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
